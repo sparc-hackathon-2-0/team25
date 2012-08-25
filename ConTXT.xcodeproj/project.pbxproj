@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3B778FE15E933FD009A0A5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B778FD15E933FD009A0A5A /* UIKit.framework */; };
+		D3B7790015E933FD009A0A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B778FF15E933FD009A0A5A /* Foundation.framework */; };
+		D3B7790215E933FD009A0A5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7790115E933FD009A0A5A /* CoreGraphics.framework */; };
+		D3B7790815E933FD009A0A5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3B7790615E933FD009A0A5A /* InfoPlist.strings */; };
+		D3B7790A15E933FD009A0A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B7790915E933FD009A0A5A /* main.m */; };
+		D3B7790E15E933FD009A0A5A /* ContxtAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B7790D15E933FD009A0A5A /* ContxtAppDelegate.m */; };
+		D3B7791515E9341F009A0A5A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7791415E9341F009A0A5A /* CoreLocation.framework */; };
+		D3B7795815E939A9009A0A5A /* libmailcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7795115E9392A009A0A5A /* libmailcore.a */; };
+		D3B7795E15E939A9009A0A5A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7795915E939A9009A0A5A /* libcrypto.a */; };
+		D3B7795F15E939A9009A0A5A /* libsasl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7795A15E939A9009A0A5A /* libsasl2.a */; };
+		D3B7796015E939A9009A0A5A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7795B15E939A9009A0A5A /* libssl.a */; };
+		D3B7796115E939A9009A0A5A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7795C15E939A9009A0A5A /* CFNetwork.framework */; };
+		D3B7796215E939A9009A0A5A /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7795D15E939A9009A0A5A /* libiconv.dylib */; };
+		D3B7796A15E946BF009A0A5A /* MessageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B7796815E946BF009A0A5A /* MessageListViewController.m */; };
+		D3B7796B15E946BF009A0A5A /* MessageListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B7796915E946BF009A0A5A /* MessageListViewController.xib */; };
+		D3B7797A15E949CE009A0A5A /* MessageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B7797915E949CE009A0A5A /* MessageStore.m */; };
+		D3B7797D15E94A10009A0A5A /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B7797C15E94A10009A0A5A /* Message.m */; };
+		D3B7798015E94DC5009A0A5A /* DateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B7797F15E94DC5009A0A5A /* DateContext.m */; };
+		D3B8A25515E960DA00FB7528 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B8A25415E960DA00FB7528 /* MessageTableViewCell.m */; };
+		D3B8A25715E9630900FB7528 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B8A25615E9630900FB7528 /* MessageTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3B7794E15E9392A009A0A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B7793715E93928009A0A5A /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = MailCore;
+		};
+		D3B7795015E9392A009A0A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B7793715E93928009A0A5A /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8618B5710DADB5C00C41188;
+			remoteInfo = "MailCore iOS";
+		};
+		D3B7795215E9392A009A0A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B7793715E93928009A0A5A /* MailCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8DFCF4915801A5000C01975;
+			remoteInfo = Tests;
+		};
+		D3B7796315E939BC009A0A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3B7793715E93928009A0A5A /* MailCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8618B5610DADB5C00C41188;
+			remoteInfo = "MailCore iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3B778F915E933FD009A0A5A /* ConTXT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConTXT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B778FD15E933FD009A0A5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3B778FF15E933FD009A0A5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3B7790115E933FD009A0A5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3B7790515E933FD009A0A5A /* ConTXT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConTXT-Info.plist"; sourceTree = "<group>"; };
+		D3B7790715E933FD009A0A5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3B7790915E933FD009A0A5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3B7790B15E933FD009A0A5A /* ConTXT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConTXT-Prefix.pch"; sourceTree = "<group>"; };
+		D3B7790C15E933FD009A0A5A /* ContxtAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContxtAppDelegate.h; sourceTree = "<group>"; };
+		D3B7790D15E933FD009A0A5A /* ContxtAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContxtAppDelegate.m; sourceTree = "<group>"; };
+		D3B7791415E9341F009A0A5A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D3B7793715E93928009A0A5A /* MailCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MailCore.xcodeproj; path = ../MailCore/MailCore.xcodeproj; sourceTree = "<group>"; };
+		D3B7795915E939A9009A0A5A /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../MailCore/iOSPorts/ports/security/openssl/build/Release-iphoneos/libcrypto.a"; sourceTree = "<group>"; };
+		D3B7795A15E939A9009A0A5A /* libsasl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsasl2.a; path = "../MailCore/iOSPorts/ports/security/cyrus-sasl/build/Release-iphoneos/libsasl2.a"; sourceTree = "<group>"; };
+		D3B7795B15E939A9009A0A5A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../MailCore/iOSPorts/ports/security/openssl/build/Release-iphoneos/libssl.a"; sourceTree = "<group>"; };
+		D3B7795C15E939A9009A0A5A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D3B7795D15E939A9009A0A5A /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		D3B7796715E946BF009A0A5A /* MessageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageListViewController.h; sourceTree = "<group>"; };
+		D3B7796815E946BF009A0A5A /* MessageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageListViewController.m; sourceTree = "<group>"; };
+		D3B7796915E946BF009A0A5A /* MessageListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageListViewController.xib; sourceTree = "<group>"; };
+		D3B7797815E949CE009A0A5A /* MessageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStore.h; sourceTree = "<group>"; };
+		D3B7797915E949CE009A0A5A /* MessageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageStore.m; sourceTree = "<group>"; };
+		D3B7797B15E94A10009A0A5A /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		D3B7797C15E94A10009A0A5A /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		D3B7797E15E94DC5009A0A5A /* DateContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateContext.h; sourceTree = "<group>"; };
+		D3B7797F15E94DC5009A0A5A /* DateContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateContext.m; sourceTree = "<group>"; };
+		D3B8A25315E960DA00FB7528 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		D3B8A25415E960DA00FB7528 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		D3B8A25615E9630900FB7528 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3B778F615E933FD009A0A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B7795E15E939A9009A0A5A /* libcrypto.a in Frameworks */,
+				D3B7795F15E939A9009A0A5A /* libsasl2.a in Frameworks */,
+				D3B7796015E939A9009A0A5A /* libssl.a in Frameworks */,
+				D3B7796115E939A9009A0A5A /* CFNetwork.framework in Frameworks */,
+				D3B7796215E939A9009A0A5A /* libiconv.dylib in Frameworks */,
+				D3B7795815E939A9009A0A5A /* libmailcore.a in Frameworks */,
+				D3B7791515E9341F009A0A5A /* CoreLocation.framework in Frameworks */,
+				D3B778FE15E933FD009A0A5A /* UIKit.framework in Frameworks */,
+				D3B7790015E933FD009A0A5A /* Foundation.framework in Frameworks */,
+				D3B7790215E933FD009A0A5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3B778EE15E933FD009A0A5A = {
+			isa = PBXGroup;
+			children = (
+				D3B7795915E939A9009A0A5A /* libcrypto.a */,
+				D3B7795A15E939A9009A0A5A /* libsasl2.a */,
+				D3B7795B15E939A9009A0A5A /* libssl.a */,
+				D3B7795C15E939A9009A0A5A /* CFNetwork.framework */,
+				D3B7795D15E939A9009A0A5A /* libiconv.dylib */,
+				D3B7793715E93928009A0A5A /* MailCore.xcodeproj */,
+				D3B7791415E9341F009A0A5A /* CoreLocation.framework */,
+				D3B7790315E933FD009A0A5A /* ConTXT */,
+				D3B778FC15E933FD009A0A5A /* Frameworks */,
+				D3B778FA15E933FD009A0A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3B778FA15E933FD009A0A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3B778F915E933FD009A0A5A /* ConTXT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3B778FC15E933FD009A0A5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B778FD15E933FD009A0A5A /* UIKit.framework */,
+				D3B778FF15E933FD009A0A5A /* Foundation.framework */,
+				D3B7790115E933FD009A0A5A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3B7790315E933FD009A0A5A /* ConTXT */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7790C15E933FD009A0A5A /* ContxtAppDelegate.h */,
+				D3B7790D15E933FD009A0A5A /* ContxtAppDelegate.m */,
+				D3B7796715E946BF009A0A5A /* MessageListViewController.h */,
+				D3B7796815E946BF009A0A5A /* MessageListViewController.m */,
+				D3B7796915E946BF009A0A5A /* MessageListViewController.xib */,
+				D3B8A25615E9630900FB7528 /* MessageTableViewCell.xib */,
+				D3B7790415E933FD009A0A5A /* Supporting Files */,
+				D3B7797815E949CE009A0A5A /* MessageStore.h */,
+				D3B7797915E949CE009A0A5A /* MessageStore.m */,
+				D3B7797B15E94A10009A0A5A /* Message.h */,
+				D3B7797C15E94A10009A0A5A /* Message.m */,
+				D3B7797E15E94DC5009A0A5A /* DateContext.h */,
+				D3B7797F15E94DC5009A0A5A /* DateContext.m */,
+				D3B8A25315E960DA00FB7528 /* MessageTableViewCell.h */,
+				D3B8A25415E960DA00FB7528 /* MessageTableViewCell.m */,
+			);
+			path = ConTXT;
+			sourceTree = "<group>";
+		};
+		D3B7790415E933FD009A0A5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7790515E933FD009A0A5A /* ConTXT-Info.plist */,
+				D3B7790615E933FD009A0A5A /* InfoPlist.strings */,
+				D3B7790915E933FD009A0A5A /* main.m */,
+				D3B7790B15E933FD009A0A5A /* ConTXT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3B7793815E93928009A0A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7794F15E9392A009A0A5A /* MailCore.framework */,
+				D3B7795115E9392A009A0A5A /* libmailcore.a */,
+				D3B7795315E9392A009A0A5A /* Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3B778F815E933FD009A0A5A /* ConTXT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B7791115E933FD009A0A5A /* Build configuration list for PBXNativeTarget "ConTXT" */;
+			buildPhases = (
+				D3B778F515E933FD009A0A5A /* Sources */,
+				D3B778F615E933FD009A0A5A /* Frameworks */,
+				D3B778F715E933FD009A0A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3B7796415E939BC009A0A5A /* PBXTargetDependency */,
+			);
+			name = ConTXT;
+			productName = ConTXT;
+			productReference = D3B778F915E933FD009A0A5A /* ConTXT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3B778F015E933FD009A0A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Contxt;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Dallas Vaughan";
+			};
+			buildConfigurationList = D3B778F315E933FD009A0A5A /* Build configuration list for PBXProject "ConTXT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3B778EE15E933FD009A0A5A;
+			productRefGroup = D3B778FA15E933FD009A0A5A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D3B7793815E93928009A0A5A /* Products */;
+					ProjectRef = D3B7793715E93928009A0A5A /* MailCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D3B778F815E933FD009A0A5A /* ConTXT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D3B7794F15E9392A009A0A5A /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = D3B7794E15E9392A009A0A5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3B7795115E9392A009A0A5A /* libmailcore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmailcore.a;
+			remoteRef = D3B7795015E9392A009A0A5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3B7795315E9392A009A0A5A /* Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.octest;
+			remoteRef = D3B7795215E9392A009A0A5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3B778F715E933FD009A0A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B7790815E933FD009A0A5A /* InfoPlist.strings in Resources */,
+				D3B7796B15E946BF009A0A5A /* MessageListViewController.xib in Resources */,
+				D3B8A25715E9630900FB7528 /* MessageTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3B778F515E933FD009A0A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B7790A15E933FD009A0A5A /* main.m in Sources */,
+				D3B7790E15E933FD009A0A5A /* ContxtAppDelegate.m in Sources */,
+				D3B7796A15E946BF009A0A5A /* MessageListViewController.m in Sources */,
+				D3B7797A15E949CE009A0A5A /* MessageStore.m in Sources */,
+				D3B7797D15E94A10009A0A5A /* Message.m in Sources */,
+				D3B7798015E94DC5009A0A5A /* DateContext.m in Sources */,
+				D3B8A25515E960DA00FB7528 /* MessageTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3B7796415E939BC009A0A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MailCore iOS";
+			targetProxy = D3B7796315E939BC009A0A5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3B7790615E933FD009A0A5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B7790715E933FD009A0A5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3B7790F15E933FD009A0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3B7791015E933FD009A0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3B7791215E933FD009A0A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConTXT/ConTXT-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/../../include/**";
+				INFOPLIST_FILE = "ConTXT/ConTXT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3B7791315E933FD009A0A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConTXT/ConTXT-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/../../include/**";
+				INFOPLIST_FILE = "ConTXT/ConTXT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3B778F315E933FD009A0A5A /* Build configuration list for PBXProject "ConTXT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B7790F15E933FD009A0A5A /* Debug */,
+				D3B7791015E933FD009A0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B7791115E933FD009A0A5A /* Build configuration list for PBXNativeTarget "ConTXT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B7791215E933FD009A0A5A /* Debug */,
+				D3B7791315E933FD009A0A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3B778F015E933FD009A0A5A /* Project object */;
+}
